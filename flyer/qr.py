@@ -1,7 +1,7 @@
 import qrcode
 
 # Donnée que tu veux encoder dans le QR code
-data = "https://thomas91600.github.io/QrCode/"  # Exemple d'URL, modifie avec ce que tu veux
+data = "https://thomas91600.github.io/Quishing/"  # Exemple d'URL, modifie avec ce que tu veux
 
 # Génération du QR Code
 qr = qrcode.QRCode(
