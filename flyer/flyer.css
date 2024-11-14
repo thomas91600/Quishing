@@ -1,0 +1,91 @@
+/* Réinitialisation du style par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Format de la page A4 */
+@media print {
+    body {
+        width: 210mm;  /* Largeur A4 */
+        height: 297mm; /* Hauteur A4 */
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4; /* Fond clair  */
+    }
+}
+
+/* Conteneur principal du flyer */
+.flyer-container {
+    width: 100%;
+    height: 100%;
+    padding: 30mm;
+    background-color: #ffffff; /* Fond blanc pour le contenu */
+    color: #101010;  /* Texte en noir pour le contraste */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header - Section avec les logos */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 36px;
+    color: #00C2B3; /* Couleur verte Deliveroo */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Texte principal */
+p {
+    font-size: 18px;
+    color: #101010; /* Texte noir pour contraster avec le fond blanc */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Bannière avec réduction */
+.discount-banner {
+    background-color: #00C2B3;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.discount-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Suppression du bouton d'appel à l'action */
+
+/* QR Code */
+.qrcode-container {
+    margin-top: 30px;
+}
+
+.qrcode {
+    width: 150px;  /* Taille du QR code */
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer - Informations légales ou autres informations */
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #101010;
+}
